@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    <TextView
+        android:id="@+id/deviceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:textColor="#d3d3d3" />
+
+    <TextView
+        android:id="@+id/pairingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:textColor="#d3d3d3"
+        android:visibility="visible"
+        
+         />
+    
+    <View 
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:visibility="visible"
+        android:background="@drawable/divider_color"
+        />   
+    <ProgressBar 
+        android:id="@+id/pairingProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/progressBarStyleHorizontal"
+       	android:minHeight="12dp"
+        />
+    
+
+    
+</RelativeLayout>

@@ -1,0 +1,2 @@
+all: Event.cpp Event.h EventScheduler.cpp EventScheduler.h Simulation.h Simulation.cpp Lab1.cpp
+		g++ -std=c++11 -ofast -o lab1 Event.cpp Event.h EventScheduler.cpp EventScheduler.h Simulation.h Simulation.cpp Lab1.cpp
